@@ -5,6 +5,7 @@ import ScrollSection from "./componets/scrollanimation/Scrollanimation";
 import ProfessionalCursor from "./componets/professional-cursor/professional-cursor";
 import Footer from "./componets/layout/Footer";
 import Header from "./componets/layout/Header";
+import ScrollanimationHead from "./componets/scrollanimation/ScrollanimationHead";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,9 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} bg-primery ${geistMono.variable} antialiased`}>
-        <ScrollSection>
-          <Header />
-        </ScrollSection>
+        <Header />
         <ProfessionalCursor />
         {children}
         <ScrollSection>

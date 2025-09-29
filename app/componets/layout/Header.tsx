@@ -11,13 +11,13 @@ export default function Header() {
   }, []);
 
   return (
-    <header className=" px-0  text-lg text-primeText pb-5 border-b border-[#1e2d3d] ">
+    <header className=" px-0  text-lg text-primeText py-5 border-b border-[#1e2d3d] ">
       <div className=" contaner flex items-center justify-between ">
         <div className=" flex items-center gap-4 ">
           <Logo />
           <h2 className=" text-[16px] hidden md:block  md:text-[18px] ">Hossein Ghanimati</h2>
         </div>
-        <div className={`md:hidden z-100000000 fixed top-[6rem] left-0 right-0 bgbox1 shadow-lg transition-all duration-300 ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"}`}>
+        <div className={`md:hidden z-100 absolute bg-primery top-[6rem] left-0 right-0 bgbox1 shadow-lg transition-all duration-300 ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"}`}>
           <ul className="flex flex-col items-center h-[100vh] py-4 gap-8">
             <Link to="Skills" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
               Skills

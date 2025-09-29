@@ -33,7 +33,7 @@ export default function ScrollSection3({ children, once = true, threshold = 0.2 
   }, [once, threshold]);
 
   return (
-    <div ref={ref} className={`transition-all duration-1000 ease-out transform will-change-transform  ${visible ? "opacity-100 translate-x-0 translate-y-0" : "opacity-0 translate-x-40 translate-y-40"}`} style={{ backfaceVisibility: "hidden", transform: visible ? "translateZ(0)" : undefined }}>
+    <div ref={ref} className={`transition-all duration-1000 ease-out transform will-change-transform  sm:${visible ? "opacity-100 translate-x-0 translate-y-0" : "opacity-0 translate-x-40 translate-y-40"} `} style={{ backfaceVisibility: "hidden", transform: visible ? "translateZ(0)" : undefined }}>
       {children}
     </div>
   );
