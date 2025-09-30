@@ -1,10 +1,12 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+"use client";
 
+import { Phone, Mail, MapPin } from "lucide-react";
+import { Element } from "react-scroll";
 import ScrollanimationContact from "../../scrollanimation/ScrollanimationContact";
 
 export default function Contact() {
   return (
-    <section className=" flex-col xl:flex-row flex gap-20 xl:gap-40 mx-auto container overflow-hidden items-center  justify-center py-16" id="contact">
+    <Element name="contact" className=" flex-col xl:flex-row flex gap-20 xl:gap-40 mx-auto container overflow-hidden items-center  justify-center py-16">
       <ScrollanimationContact direction="left">
         <div className=" flex flex-col justify-between ">
           <div className="  ">
@@ -61,6 +63,6 @@ export default function Contact() {
           </ScrollanimationContact>
         </form>
       </div>
-    </section>
+    </Element>
   );
 }

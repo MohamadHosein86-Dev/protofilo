@@ -1,12 +1,13 @@
-import React from "react";
+"use client";
 import ScrollanimationProject from "../../scrollanimation/ScrollanimationProject";
 import ScrollSection from "../../scrollanimation/ScrollSection";
+import { Element } from "react-scroll";
 
 export default function ServicesSec() {
   return (
-    <div className=" contaner overflow-hidden mb-8 ">
-      <div className=" px-1.5 ">
-        <div className="lg:max-w-[50dvw] pt-10 undefined">
+    <Element name="Services" className=" contaner overflow-hidden  ">
+      <div className=" my-30 px-1.5 ">
+        <div className="lg:max-w-[50dvw]  ">
           <h2 className="text-primeText text-xl sm:text-2xl font-bold tracking-wider">{"// Services / Offers:"}</h2>
           <p className="text-primeText mt-5 text-[16px] sm:text-lg text-pretty">I offer a wide range of services to ensure you have the best written code and stay ahead in the competition.</p>
         </div>
@@ -41,6 +42,6 @@ export default function ServicesSec() {
           </ScrollanimationProject>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

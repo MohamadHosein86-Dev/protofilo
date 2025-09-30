@@ -2,8 +2,9 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../logo/Logo";
 import { Link } from "react-scroll";
-import Link2 from "next/link";
+
 export default function Header() {
+  //
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   useEffect(() => {
@@ -38,23 +39,24 @@ export default function Header() {
           <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "opacity-0" : ""}`}></span>
           <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}></span>
         </button>
+
         <ul className=" hidden lg:flex items-center gap-8 ">
-          <Link2 href={"/"} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
+          <Link to="Skills" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
             Skills
-          </Link2>
-          <Link2 href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
-            projects
-          </Link2>
-          <Link2 href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
-            services
-          </Link2>
-          <Link2 href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+          </Link>
+          <Link to="projects" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+            Projects
+          </Link>
+          <Link to="Services" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+            Services
+          </Link>
+          <Link to="Testimonials" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
             Testimonials
-          </Link2>
+          </Link>
         </ul>
-        <Link2 className="hidden lg:block " href={""}>
+        <Link to="contact" smooth="easeInOutQuart" duration={1200} offset={-60} className="hidden lg:block " href={""}>
           contact-me
-        </Link2>
+        </Link>
       </div>
     </header>
   );

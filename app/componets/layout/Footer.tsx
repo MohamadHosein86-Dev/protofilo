@@ -1,22 +1,22 @@
-import React from "react";
+"use client";
 import LogoFooter from "../logo/LogoFooter";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
     <footer className="contaner flex items-center flex-col justify-center mx-auto ">
       <LogoFooter />
-      <ul className=" text-white hidden my-4 text-lg md:flex items-center gap-8 ">
-        <Link href={"/"} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
+      <ul className=" hidden md:flex text-white my-4 text-lg  items-center gap-8 ">
+        <Link to="Skills" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
           Skills
         </Link>
-        <Link href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
-          projects
+        <Link to="projects" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+          Projects
         </Link>
-        <Link href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
-          services
+        <Link to="Services" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+          Services
         </Link>
-        <Link href={""} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+        <Link to="about" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
           Testimonials
         </Link>
       </ul>

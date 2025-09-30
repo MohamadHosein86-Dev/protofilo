@@ -1,5 +1,5 @@
 "use client";
-
+import { Element } from "react-scroll";
 import ScrollanimationProject from "../../scrollanimation/ScrollanimationProject";
 
 const data = [
@@ -11,9 +11,9 @@ const data = [
 ];
 export default function ProjectsSec() {
   return (
-    <div className=" mt-15 overflow-hidden   ">
+    <Element name="projects" className=" mt-15 overflow-hidden   ">
       <div className=" px-1.5 contaner  ">
-        <div className=" mt-30  undefined">
+        <div className=" mt-15  undefined">
           {/*           <h2 className="text-primeText text-xl sm:text-2xl font-black tracking-wider">// Projects</h2>
            */}{" "}
         </div>
@@ -64,6 +64,6 @@ export default function ProjectsSec() {
           ))}
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

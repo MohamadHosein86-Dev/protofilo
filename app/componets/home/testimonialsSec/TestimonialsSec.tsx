@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { CardWrapper } from "../../ui/card-wrapper";
+import { Element } from "react-scroll";
 
 interface TestimonialProps {
   text: string;
@@ -81,13 +82,13 @@ export function TestimonialsSec() {
   const duplicatedTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="py-30 relative contaner overflow-hidden" id="testimonials">
+    <Element name="Testimonials" className=" relative contaner overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
       </div>
 
-      <div className="container pb-20 pt-40 mx-auto  relative z-10">
+      <div className="container pb-20 mt-10 mx-auto  relative z-10">
         <div className="lg:max-w-[50dvw] pb-12 undefined">
           <h2 className=" text-primeText text-xl sm:text-2xl font-bold tracking-wider">{"// Testimonials"}</h2>
           <p className="text-primeText mt-5 text-[16px] sm:text-lg text-pretty">Don&#39;t just take our word for it - see what actual users of our service have to say about their experience.</p>
@@ -106,6 +107,6 @@ export function TestimonialsSec() {
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent pointer-events-none z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-bac to-transparent pointer-events-none z-10" />
       </div>
-    </section>
+    </Element>
   );
 }

@@ -264,14 +264,14 @@ export function SkillsSec() {
 
   return (
     <div ref={sectionRef}>
-      <Element name="skills" className=" contaner  relative overflow-hidden ">
+      <Element name="Skills" className=" contaner  relative overflow-hidden ">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-32 h-32 sm:w-64 sm:h-64 bg-primary/5 rounded-full blur-3xl animate-pulse" />
           <div className="absolute bottom-1/4 right-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-secondary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
         </div>
 
         <div className=" py-16 mx-auto px-1.5 relative z-10">
-          <div className="  mb-12 mt-30 undefined">
+          <div className="  mb-12 mt-20 undefined">
             <h2 className="text-primeText text-xl sm:text-2xl font-black tracking-wider">
               {/* My Skills */}
               My Skills
