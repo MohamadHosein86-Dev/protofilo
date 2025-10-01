@@ -1,3 +1,4 @@
+"use client";
 import Contact from "./componets/home/contact/Contact";
 import ProfileSec from "./componets/home/profileSec/ProfileSec";
 import ProjectsSec from "./componets/home/projects/ProjectsSec";

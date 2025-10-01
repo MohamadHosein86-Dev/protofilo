@@ -18,19 +18,22 @@ export default function Header() {
           <Logo />
           <h2 className=" text-[16px] hidden md:block  md:text-[18px] ">Hossein Ghanimati</h2>
         </div>
-        <div className={`md:hidden z-100 absolute bg-primery top-[6rem] left-0 right-0 bgbox1 shadow-lg transition-all duration-300 ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"}`}>
+        <div className={`md:hidden z-100 absolute bg-primery top-[6rem] h-full left-0 right-0 bgbox1 shadow-lg transition-all duration-300 ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"}`}>
           <ul className="flex flex-col items-center h-[100vh] py-4 gap-8">
-            <Link to="Skills" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
+            <Link onClick={() => setIsMenuOpen(false)} to="Skills" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-cnolors ease-in delay-150   ">
               Skills
             </Link>
-            <Link to="projects" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+            <Link onClick={() => setIsMenuOpen(false)} to="projects" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
               Projects
             </Link>
-            <Link to="Services" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+            <Link onClick={() => setIsMenuOpen(false)} to="Services" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
               Services
             </Link>
-            <Link to="about" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
+            <Link onClick={() => setIsMenuOpen(false)} to="Testimonials" smooth="easeInOutQuart" duration={1200} offset={-60} className=" z-10000 py-0 border-[#1e2d3d] hover:text-white transition-colors ease-in delay-150   ">
               Testimonials
+            </Link>
+            <Link onClick={() => setIsMenuOpen(false)} to="contact" smooth="easeInOutQuart" duration={1200} offset={-60} className="hidden lg:block " href={""}>
+              contact-me
             </Link>
           </ul>
         </div>
