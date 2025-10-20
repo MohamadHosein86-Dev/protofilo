@@ -28,7 +28,7 @@ export default function ProfileSec() {
             <a href="/resume" aria-label="Connect with me" className="bg-secondary min-w-32 cursor-pointer rounded-lg font-medium px-[16px] py-[10px] text-center   text-[#00071E]">
               Download Resume
             </a>
-            <a href="https://github.com/hossein-ghanimati" target="_blank" aria-label="View Github Profile" className=" font-medium cursor-pointer rounded-lg px-[14px] py-[10px] ">
+            <a href="https://github.com/MohamadHosein86-Dev" target="_blank" aria-label="View Github Profile" className=" font-medium cursor-pointer rounded-lg px-[14px] py-[10px] ">
               Github Profile
             </a>
           </div>
