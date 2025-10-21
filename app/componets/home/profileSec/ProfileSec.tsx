@@ -17,16 +17,16 @@ export default function ProfileSec() {
           </div>
         </ScrollSection2>
       </div>
-      <div className=" z-100000 ">
+      <div className=" z-1000">
         <ScrollSection3>
-          <div className="order-1 hidden z-1000000   md:flex min-h-48  text-white flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]" style={{ opacity: "1", transform: "none;" }}>
+          <div className="order-1 hidden z-100   md:flex min-h-48  text-white flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]" style={{ opacity: "1", transform: "none;" }}>
             <h1>
               <span className="  mb-2 block text-2xl lg:text-4xl font-black ">Hi - I&apos;m Hossein Ghanimati</span>
               <span className=" block  text-secondary text-[1.6rem] lg:text-[1.95rem] font-black ">Next.js Developer</span>
             </h1>
             <h2 className="text-neutral text-[16px] lg:text-lg mt-3">Crafting innovative solutions to solve real-world problems</h2>
             <div className="mt-6 flex flex-wrap gap-6">
-              <a download href="/resume.pdf" aria-label="Connect with me" className="bg-secondary min-w-32 cursor-pointer rounded-lg font-medium px-[16px] py-[10px] text-center   text-[#00071E]">
+              <a download href="/resume.pdf" aria-label="Connect with me" className="bg-secondary z-10 min-w-32 cursor-pointer rounded-lg font-medium px-[16px] py-[10px] text-center   text-[#00071E]">
                 Download Resume
               </a>
               <a href="https://github.com/MohamadHosein86-Dev" target="_blank" aria-label="View Github Profile" className=" font-medium cursor-pointer rounded-lg px-[14px] py-[10px] ">
