@@ -26,7 +26,7 @@ export default function ProfileSec() {
             </h1>
             <h2 className="text-neutral text-[16px] lg:text-lg mt-3">Crafting innovative solutions to solve real-world problems</h2>
             <div className="mt-6 flex flex-wrap gap-6">
-              <a download href="/resume.pdf" aria-label="Connect with me" className="bg-secondary z-100000 min-w-32 cursor-pointer rounded-lg font-medium px-[16px] py-[10px] text-center   text-[#00071E]">
+              <a download href="/resume.pdf" aria-label="Connect with me" className="bg-secondary min-w-32 cursor-pointer rounded-lg font-medium px-[16px] py-[10px] text-center   text-[#00071E]">
                 Download Resume
               </a>
               <a href="https://github.com/MohamadHosein86-Dev" target="_blank" aria-label="View Github Profile" className=" font-medium cursor-pointer rounded-lg px-[14px] py-[10px] ">
