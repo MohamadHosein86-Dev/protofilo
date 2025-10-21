@@ -17,7 +17,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg  ">Phone</h3>
-                  <p className="text-muted-foreground text-primeText  ">(+98) 936 853 5209</p>
+                  <p className="text-muted-foreground text-primeText  ">(+98) 939 799 7265</p>
                 </div>
               </div>
               <div className={`contact-item flex items-center gap-4 `}>
@@ -26,7 +26,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg  ">Email</h3>
-                  <p className="text-muted-foreground text-primeText  ">mahdibaghrichanel@gmail.com</p>
+                  <p className="text-muted-foreground text-primeText  ">mohamadhoseinsafaryan1386@gmail.com</p>
                 </div>
               </div>
               <div className={`contact-item flex items-center gap-4 `}>
@@ -35,7 +35,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg  ">Addres</h3>
-                  <p className="text-muted-foreground text-primeText  ">Isfahan, Iran</p>
+                  <p className="text-muted-foreground text-primeText  ">Qom, Iran</p>
                 </div>
               </div>
             </div>

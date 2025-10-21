@@ -42,7 +42,7 @@ export function TestimonialsSec() {
 
   const testimonials: TestimonialProps[] = [
     {
-      text: "Mahdi's technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
+      text: "Mohamadhosein technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
       name: "sara hoseini",
       position: "Product Manager",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
@@ -50,28 +50,28 @@ export function TestimonialsSec() {
     },
 
     {
-      text: "Mahdi's technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
+      text: "Mohamadhosein technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
       name: "sara hoseini",
       position: "Data Analyst",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      text: "Mahdi's technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
+      text: "Mohamadhosein technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
       name: "sara hoseini",
       position: "Tech Lead",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      text: "Mahdi's technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
+      text: "Mohamadhosein technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
       name: "sara hoseini",
       position: "UX Designer",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
       rating: 5
     },
     {
-      text: "Mahdi's technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
+      text: "Mohamadhosein technical expertise and problem-solving skills are outstanding. He transformed our vision into reality perfectly.",
       name: "sara hoseini",
       position: "UX Designer",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",

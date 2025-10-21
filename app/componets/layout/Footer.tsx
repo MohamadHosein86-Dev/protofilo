@@ -20,7 +20,7 @@ export default function Footer() {
           Testimonials
         </Link>
       </ul>
-      <p className=" text-primeText text-sm mt-4 md:mt-0 sm:text-[16px]  mb-6 ">© 2024 Mahdi Baghri. All rights reserved.</p>
+      <p className=" text-primeText text-sm mt-4 md:mt-0 sm:text-[16px]  mb-6 ">© 2024 Mohamadhosein safaryan. All rights reserved.</p>
     </footer>
   );
 }
